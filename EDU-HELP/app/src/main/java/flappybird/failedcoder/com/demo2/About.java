@@ -26,9 +26,6 @@ public class About extends AppCompatActivity {
                 .addItem(new Element().setTitle("Version 1.0"))
                 .addItem(adsElement)
                 .addGroup("Connect with us")
-                .addEmail("princeabhinav@gmail.com")
-                .addFacebook("FDNS")
-                .addGitHub("FDNS-NITK")
                 .addItem(createCopyright())
                 .create();
 

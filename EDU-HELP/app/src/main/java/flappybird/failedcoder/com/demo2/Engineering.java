@@ -13,12 +13,12 @@ public class Engineering extends AppCompatActivity {
         setContentView(R.layout.activity_engineering);
     }
     public void onButtonClick(View v) {
-        if (v.getId() == R.id.Bdisplay1) {
-            Intent i = new Intent(Engineering.this, Home.class);
-            startActivity(i);
-        } else if (v.getId() == R.id.Bdisplay2) {
-            Intent i = new Intent(Engineering.this, Home.class);
-            startActivity(i);
-        }
+//        if (v.getId() == R.id.Bdisplay1) {
+//            Intent i = new Intent(Engineering.this, Home.class);
+//            startActivity(i);
+//        } else if (v.getId() == R.id.Bdisplay2) {
+//            Intent i = new Intent(Engineering.this, Home.class);
+//            startActivity(i);
+//        }
     }
 }

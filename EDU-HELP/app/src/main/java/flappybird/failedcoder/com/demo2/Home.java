@@ -50,11 +50,11 @@ public class Home extends AppCompatActivity {
             Intent i = new Intent(Home.this, ListVie.class);
             startActivity(i);
         }
-        if(v.getId() == R.id.ffoorruumm){
-            Intent i = new Intent(Home.this, forum.class);
-            i.putExtra("NAME",username);
-            startActivity(i);
-        }
+//        if(v.getId() == R.id.ffoorruumm){
+//            Intent i = new Intent(Home.this, forum.class);
+//            i.putExtra("NAME",username);
+//            startActivity(i);
+//        }
         if(v.getId() == R.id.nnootteess){
             Intent i = new Intent(Home.this, Simple_Notes.class);
             startActivity(i);
@@ -80,27 +80,27 @@ public class Home extends AppCompatActivity {
 
         int id = item.getItemId();
 
-        switch (id){
-            case R.id.logout:
-                mAuth.signOut();
-                break;
-            case R.id.about:
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                if (user != null) {
-                    user.delete()
-                            .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(@NonNull Task<Void> task) {
-                                    if (task.isSuccessful()) {
-                                        Toast.makeText(Home.this, "Your profile is deleted:( Create a account now!", Toast.LENGTH_SHORT).show();
-                                    } else {
-                                        Toast.makeText(Home.this, "Failed to delete your account!", Toast.LENGTH_SHORT).show();
-                                    }
-                                }
-                            });
-                    break;
-                }
-        }
+//        switch (id){
+//            case R.id.logout:
+//                mAuth.signOut();
+//                break;
+//            case R.id.about:
+//                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+//                if (user != null) {
+//                    user.delete()
+//                            .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                                @Override
+//                                public void onComplete(@NonNull Task<Void> task) {
+//                                    if (task.isSuccessful()) {
+//                                        Toast.makeText(Home.this, "Your profile is deleted:( Create a account now!", Toast.LENGTH_SHORT).show();
+//                                    } else {
+//                                        Toast.makeText(Home.this, "Failed to delete your account!", Toast.LENGTH_SHORT).show();
+//                                    }
+//                                }
+//                            });
+//                    break;
+//                }
+//        }
 
         return true;
     }
