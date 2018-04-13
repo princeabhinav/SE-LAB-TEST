@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "553684845754",
+    "firebase_url": "https://pokemon-7ea26.firebaseio.com",
+    "project_id": "pokemon-7ea26",
+    "storage_bucket": "pokemon-7ea26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553684845754:android:43dd41d382d9cc0b",
+        "android_client_info": {
+          "package_name": "example.androidgrid.simplenotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553684845754-ut38eujgv3312mt8gco5dc524vo9v998.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.androidgrid.simplenotesapp",
+            "certificate_hash": "bfd4c011c8643239f552313770b300a620abc9aa"
+          }
+        },
+        {
+          "client_id": "553684845754-p38auq05kno58im9i0rlt9p2u1al5aa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHWhrhJ79FC45kfNHcSZgcUa86ntzmss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553684845754-p38auq05kno58im9i0rlt9p2u1al5aa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553684845754:android:e427ee8c278e3cbf",
+        "android_client_info": {
+          "package_name": "flappybird.failedcoder.com.demo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553684845754-cebi8hdncl6pgfhc3eadqcs3u67umuk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flappybird.failedcoder.com.demo2",
+            "certificate_hash": "bf5e7cf2c432a975b58b96c28ce5513039711c11"
+          }
+        },
+        {
+          "client_id": "553684845754-skj9blaod8cs55jnj6jc0e6bimrjkm8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flappybird.failedcoder.com.demo2",
+            "certificate_hash": "0559df8f67ab8cc6016da278c2e40e8e4435c879"
+          }
+        },
+        {
+          "client_id": "553684845754-ndv5r5fqmgqc7hfejmt72ri2dp4uih1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flappybird.failedcoder.com.demo2",
+            "certificate_hash": "bfd4c011c8643239f552313770b300a620abc9aa"
+          }
+        },
+        {
+          "client_id": "553684845754-p38auq05kno58im9i0rlt9p2u1al5aa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHWhrhJ79FC45kfNHcSZgcUa86ntzmss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553684845754-p38auq05kno58im9i0rlt9p2u1al5aa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

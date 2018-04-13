@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="flappybird.failedcoder.com.demo2">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EDU-HELP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".getstarted" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".CardView" />
+        <activity android:name=".Home" />
+        <activity android:name=".forum" />
+        <activity android:name=".notes" />
+        <activity android:name=".notesputter" />
+        <activity android:name=".About" />
+        <activity android:name=".Guuo" />
+        <activity android:name=".start" />
+        <activity android:name=".Result" />
+        <activity android:name=".website" />
+        <activity android:name=".AlbumsAdapter" />
+        <activity
+            android:name=".recyclecard"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".ListVie" />
+        <activity android:name=".ActivityOne" />
+        <activity android:name=".Engineering" />
+        <activity android:name=".CODING" />
+        <activity android:name=".STL" />
+        <activity android:name=".DATA" />
+        <activity android:name=".ALGO" />
+        <activity android:name=".ADVA" />
+        <activity android:name=".LL" />
+        <activity android:name=".ST" />
+        <activity android:name=".QU" />
+        <activity android:name=".TR" />
+        <activity android:name=".GR" />
+        <activity android:name=".Simple_Notes" />
+        <activity android:name=".NewNoteActivity" />
+        <activity android:name=".Camera"></activity>
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr"/>
+    </application>
+
+</manifest>
